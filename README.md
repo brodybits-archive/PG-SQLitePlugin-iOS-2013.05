@@ -1,4 +1,4 @@
-# Cordova/PhoneGap SQLitePlugin - iOS version
+# Cordova/PhoneGap SQLitePlugin - Legacy iOS version - May 2013
 
 Native interface to sqlite in a Cordova/PhoneGap plugin, working to follow the HTML5 Web SQL API as close as possible. **NOTE** that the API is now different from [davibe / Phonegap-SQLitePlugin](https://github.com/davibe/Phonegap-SQLitePlugin).
 
@@ -43,7 +43,6 @@ As described in [a recent posting](http://brodyspark.blogspot.com/2012/12/cordov
 Some other highlights:
 - Drop-in replacement for HTML5 SQL API: the only change is window.openDatabase() --> sqlitePlugin.openDatabase()
 - batch processing optimizations
-- [PRAGMA support](http://brodyspark.blogspot.com/2012/12/improvements-to-phonegap-sqliteplugin.html).
 - [integration with SQLCipher for iOS](http://brodyspark.blogspot.com/2012/12/integrating-sqlcipher-with.html)
 
 ## Apps using Cordova/PhoneGap SQLitePlugin
@@ -58,6 +57,7 @@ Some other highlights:
 
 ## Other versions
 
+- iOS version with latest enhancements: [pgsqlite / PG-SQLitePlugin-iOS](https://github.com/pgsqlite/PG-SQLitePlugin-iOS)
 - Android version moved to new location: [pgsqlite / PG-SQLitePlugin-Android](https://github.com/pgsqlite/PG-SQLitePlugin-Android).
 - Windows Phone 8+ version: https://github.com/marcucio/Cordova-WP-SqlitePlugin
 - iOS enhancements, with extra fixes for console log messages: https://github.com/mineshaftgap/Cordova-SQLitePlugin
